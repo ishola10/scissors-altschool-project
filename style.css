@@ -1,0 +1,211 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: auto;
+  font-family: "gilroy-bold";
+}
+header {
+  align-items: center;
+  margin: 0 auto;
+}
+.head {
+  display: flex;
+  font-size: 18px;
+  gap: 140px;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+}
+.headp1 {
+  display: flex;
+  align-items: center;
+}
+.headp2 {
+  display: flex;
+  gap: 40px;
+}
+.headp3 {
+  display: flex;
+  gap: 24px;
+}
+button {
+  padding: 12px 24px;
+  background-color: #0065fe;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+p {
+  font-size: 13px;
+}
+#part1 {
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  justify-content: center;
+}
+.part2 {
+  margin: 3%;
+}
+#part2 {
+  justify-content: center;
+  background: rgba(254, 254, 254, 0.1);
+  padding: 40px 40px;
+  position: absolute;
+  width: 52%;
+  background: rgba(254, 254, 254, 0.1);
+  backdrop-filter: blur(106px);
+  border: 1px solid #005ae2;
+  border-radius: 20px;
+  margin-left: 16%;
+}
+#part4 {
+  display: flex;
+  justify-content: center;
+  padding: 60px 140px;
+  gap: 124px;
+  width: 100%;
+  height: 35vh;
+  background: #f9fbfd;
+}
+#part5 {
+  display: flex;
+  justify-content: center;
+  padding: 60px 140px;
+  gap: 124px;
+  width: 100%;
+  height: 35vh;
+}
+#part6 {
+  margin: 5% 0;
+}
+.qr-code-data-analytics {
+  display: flex;
+  justify-content: end;
+  padding: 60px 140px;
+  gap: 124px;
+  width: 100%;
+  height: 35vh;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  padding: 60px 140px;
+  width: 100%;
+  align-items: center;
+}
+.box1,
+.box3 {
+  height: 315px;
+  background: #ffffff;
+  border: 0.4px solid #005ae2;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+.box1 {
+  width: 52%;
+  margin-left: -25%;
+  position: relative;
+  padding: 0px 40px;
+}
+.box2 {
+  position: absolute;
+  width: 25%;
+  height: 410px;
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  border-radius: 12px;
+  align-items: center;
+}
+.box3 {
+  position: absolute;
+  align-self: flex-end;
+  width: 25%;
+  margin-left: 42%;
+  padding: 20px 40px 20px 90px;
+}
+.part7 {
+  width: 100%;
+  height: 60vh;
+  background: var(
+    --linear-gradient,
+    linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%)
+  );
+}
+.form-content {
+  position: absolute;
+  margin: 5% 35%;
+  align-items: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+}
+input {
+  border-radius: 12px;
+  border: 1px solid #3284ff;
+  color: #0065fe;
+  background-color: white;
+  padding: 8px 12px;
+}
+.domain {
+  display: flex;
+  padding: 5px;
+  border-radius: 12px;
+  width: 120%;
+  gap: 2%;
+  border: 1px solid #3284ff;
+  color: #0065fe;
+  background-color: white;
+}
+.faq-content {
+  margin-left: 25%;
+}
+.part9 {
+  height: 40vh;
+  background: var(
+    --linear-gradient,
+    linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%)
+  );
+}
+.footer {
+  position: absolute;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  padding: 50px 140px 10px 140px;
+  gap: 124px;
+  width: 100%;
+}
+#footerr {
+  display: flex;
+  justify-content: end;
+  padding: 1px 315px;
+  gap: 124px;
+  width: 100%;
+}
+.optimization {
+  position: absolute;
+  margin: 5% 33%;
+  align-items: center;
+  border-radius: 12px;
+  width: 50%;
+}
+.footer-con1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16%;
+}
+.social-media {
+  display: flex;
+  gap: 8%;
+}
+.links {
+  font-size: 18px;
+  font-weight: bolder;
+}
