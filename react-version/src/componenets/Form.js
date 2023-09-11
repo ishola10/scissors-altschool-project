@@ -4,11 +4,6 @@ import Group2 from "../images/Group 2.png";
 import Downarrow from "../images/downarrow.png";
 
 function Form() {
-  //let's make the url input field and the button to trim the url using this api: https://api.shrtco.de/v2/shorten?url={url}
-    //the api returns a json object with the shortened url and the original url
-    //we can use the shortened url to redirect to the original url
-    
-    
   return (
     <>
       <section className="part7">
